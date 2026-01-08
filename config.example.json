@@ -1,0 +1,21 @@
+{
+  "llm": {
+    "provider": "anthropic",
+    "model": "claude-opus-4-5-20251101",
+    "api_version": "2023-06-01",
+    "temperature": 1.0,
+    "max_tokens": 4096,
+    "top_p": 1.0
+  },
+  "migration": {
+    "previous_model": "claude-3-opus-20240229",
+    "migrated_date": "2025-01-08",
+    "notes": "Migrated to Claude Opus 4.5 for improved reasoning and performance"
+  },
+  "features": {
+    "streaming": true,
+    "multi_turn": true,
+    "system_prompts": true,
+    "tool_use": true
+  }
+}
