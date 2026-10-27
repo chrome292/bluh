@@ -1,0 +1,5 @@
+memory/scratch/*
+!memory/scratch/.gitkeep
+memory/.memwrite.lock
+.dream/
+__pycache__/
