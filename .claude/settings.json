@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 scripts/memwrite.py:*)",
+      "Bash(python3 scripts/collect_transcripts.py:*)"
+    ],
+    "deny": [
+      "Edit(/memory/org/**)",
+      "Edit(/memory/notes/**)",
+      "Edit(/memory/CHANGELOG.md)"
+    ]
+  }
+}
